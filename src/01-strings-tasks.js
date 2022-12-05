@@ -99,8 +99,8 @@ function getFirstChar(value) {
  *   '\tHello, World! ' => 'Hello, World!'
  */
 function removeLeadingAndTrailingWhitespaces(value) {
-  let a = value.trim();
-  return a
+
+  return value.trim();
 }
 
 /**
