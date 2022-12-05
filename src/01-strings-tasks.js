@@ -19,11 +19,10 @@
  *   '',  'bb'  => 'bb'
  */
 function concatenateStrings(value1, value2) {
-  if (value1 == '') {
-    return value2
-  } else if (value2 == '') { return value1 }
-  return value1 + value2
-
+  if (value1 === '') {
+    return value2;
+  } if (value2 === '') { return value1; }
+  return value1 + value2;
 }
 
 
